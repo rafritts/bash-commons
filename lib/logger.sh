@@ -12,7 +12,7 @@ __log_message() {
     log_level="$1"
     message="$2"
     log_message="$(date '+%Y-%m-%d %H:%M:%S') ${log_level} - ${SCRIPT_NAME}:${LINENO} - ${message}"
-    echo -e "${log_message}" >> "${LOG_FILE}"
+    echo -e "${log_message}" >> logs/"${LOG_FILE}"
 }
 
 log_debug() {
