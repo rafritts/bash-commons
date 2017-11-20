@@ -1,4 +1,4 @@
 stacktrace - done
-logging - 
+logging - done
 exceptions - 
 classes - 
